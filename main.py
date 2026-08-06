@@ -7,7 +7,7 @@ window.minsize(500, 300)
 
 def convert_to_km():
     value_in_miles = float(input.get())
-    converted_label["text"] = value_in_miles * 1.60934
+    converted_label["text"] = round(value_in_miles * 1.60934,2)
 
 input = Entry()
 input.grid(row=0, column=1)
